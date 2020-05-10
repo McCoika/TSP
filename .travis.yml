@@ -1,8 +1,8 @@
 language: cpp
 cpp:
 	11.0
+sudo: required
 os:
 -windows
-
-
-	
+compiler:
+- clang
