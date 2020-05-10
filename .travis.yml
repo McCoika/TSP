@@ -4,3 +4,9 @@ os:
 	-windows
 compiler:
 - clang
+
+deploy:
+	github-token:$GITHUB_TOKEN
+	skip-cleanup: true
+	on:
+		branch: master
