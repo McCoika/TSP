@@ -1,12 +1,10 @@
 language: cpp
+cpp:
+11.0
 sudo: required
 os:
-	-windows
+-windows
 compiler:
 - clang
 
-deploy:
-	github-token:$GITHUB_TOKEN
-	skip-cleanup: true
-	on:
-		branch: master
+	
